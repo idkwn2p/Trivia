@@ -1,4 +1,23 @@
-const respuestas = ["Sarmiento", "Bolivia", "Seis horas", "Michael Douglas", "A Jack Nicholson", "Cuatro"]
+const respuestas = [
+    "Sarmiento",
+    "Bolivia", 
+    "Seis horas", 
+    "Michael Douglas", 
+    "A Jack Nicholson", 
+    "Cuatro",
+    "Dos ratas",
+    "Arquímedes",
+    "Vitamina C",
+    "Dos",
+    "Remo",
+    "Con el 23",
+    "Rembrandt",
+    "Evita",
+    "Los acordes",
+    "In God We Trust",
+    "Sputnik",
+    "Ocho"
+]
 
 function evaluar(evento) {
     let btn = evento.srcElement;
