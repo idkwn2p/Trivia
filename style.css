@@ -8,8 +8,17 @@
 .preguntas,
 .grupo, 
 .preg,
-.rtas {
+.rtas,
+.encabezado {
     display: flex;
+}
+
+.encabezado {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 50px;
 }
  
 .grupo,
@@ -120,4 +129,8 @@ button {
 
 .rtas {
     gap: 20px;
+}
+
+.logo img {
+    width: 250px;
 }
